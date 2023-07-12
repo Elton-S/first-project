@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-shopping-bag",
+        "count": "1,995W",
+        "title": "Total Power Stored"
+    },
+    {
+        "icon": "bx bx-cart",
+        "count": "2,001 W",
+        "title": "Total Power Generated"
+    },
+    {
+        "icon": "bx bx-dollar-circle",
+        "count": "2,632 V",
+        "title": "Total Voltage Stored"
+    },
+    {
+        "icon": "bx bx-receipt",
+        "count": "1,711 V",
+        "title": "Total Voltage Generated"
+    }
+]
