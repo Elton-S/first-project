@@ -39,14 +39,15 @@ export default function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
             onClick={toggleDrawer("left", true)}
-            
+
           >
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             News
           </Typography>
-          <Button color="inherit">Login</Button>
+          <a href='/login'><Button color="inherit">Login</Button></a>
+
         </Toolbar>
       </AppBar>
       <TemporaryDrawer state={state} setState={setState} toggleDrawer={toggleDrawer}></TemporaryDrawer>
